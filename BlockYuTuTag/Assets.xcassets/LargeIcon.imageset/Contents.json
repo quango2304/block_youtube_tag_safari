@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "lock-icon--has-play-icon-inside-it--the-lock-icon- copy 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "lock-icon--has-play-icon-inside-it--the-lock-icon- copy 2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "lock-icon--has-play-icon-inside-it--the-lock-icon- copy 3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

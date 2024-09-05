@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="popup.css">
+    <script src="key.js"></script>
     <script type="module" src="popup.js"></script>
+    <style>
+        .chip {
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            background-color: #e0e0e0;
+            border-radius: 25px;
+            font-size: 12px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <div style="display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto;">
+      <label for="tags" style="font-size: 16px; font-weight: bold;">Enter tags to block (comma-separated):</label>
+      <textarea id="tags" rows="4" placeholder="e.g., prank, reaction, spoilers" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 14px;"></textarea>
+      
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <input type="checkbox" id="enable-blocking" style="transform: scale(1.5);"/>
+        <label for="enable-blocking" style="font-size: 16px;">Enable Blocking</label>
+      </div>
+      
+      <button id="save" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+        Save
+      </button>
+      
+      <button id="fetch-video-tags" style="padding: 10px 20px; background-color: #2196F3; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+        Get Current Video Tags
+      </button>
+      
+      <div id="video-tags-output" style="margin-top: 10px; display: flex; flex-wrap: wrap;"></div>
+    </div>
 </body>
 </html>

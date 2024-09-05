@@ -20,11 +20,11 @@
 		497C21BA2C89AD9700A84616 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 497C21B92C89AD9700A84616 /* _locales */; };
 		497C21BC2C89AD9700A84616 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 497C21BB2C89AD9700A84616 /* images */; };
 		497C21BE2C89AD9700A84616 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 497C21BD2C89AD9700A84616 /* manifest.json */; };
-		497C21C02C89AD9700A84616 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21BF2C89AD9700A84616 /* background.js */; };
 		497C21C22C89AD9700A84616 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C12C89AD9700A84616 /* content.js */; };
 		497C21C42C89AD9700A84616 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C32C89AD9700A84616 /* popup.html */; };
 		497C21C62C89AD9700A84616 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C52C89AD9700A84616 /* popup.css */; };
 		497C21C82C89AD9700A84616 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C72C89AD9700A84616 /* popup.js */; };
+		497C21D52C89AE2E00A84616 /* key.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21D42C89AE2E00A84616 /* key.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,13 +68,13 @@
 		497C21B92C89AD9700A84616 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		497C21BB2C89AD9700A84616 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		497C21BD2C89AD9700A84616 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		497C21BF2C89AD9700A84616 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		497C21C12C89AD9700A84616 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		497C21C32C89AD9700A84616 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		497C21C52C89AD9700A84616 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		497C21C72C89AD9700A84616 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		497C21C92C89AD9700A84616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497C21CA2C89AD9700A84616 /* BlockYuTuTag_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockYuTuTag_Extension.entitlements; sourceTree = "<group>"; };
+		497C21D42C89AE2E00A84616 /* key.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = key.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,11 +155,11 @@
 				497C21B92C89AD9700A84616 /* _locales */,
 				497C21BB2C89AD9700A84616 /* images */,
 				497C21BD2C89AD9700A84616 /* manifest.json */,
-				497C21BF2C89AD9700A84616 /* background.js */,
 				497C21C12C89AD9700A84616 /* content.js */,
 				497C21C32C89AD9700A84616 /* popup.html */,
 				497C21C52C89AD9700A84616 /* popup.css */,
 				497C21C72C89AD9700A84616 /* popup.js */,
+				497C21D42C89AE2E00A84616 /* key.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -258,9 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497C21C02C89AD9700A84616 /* background.js in Resources */,
 				497C21C62C89AD9700A84616 /* popup.css in Resources */,
 				497C21C42C89AD9700A84616 /* popup.html in Resources */,
+				497C21D52C89AE2E00A84616 /* key.js in Resources */,
 				497C21BC2C89AD9700A84616 /* images in Resources */,
 				497C21BE2C89AD9700A84616 /* manifest.json in Resources */,
 				497C21BA2C89AD9700A84616 /* _locales in Resources */,
@@ -513,6 +513,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BlockYuTuTag;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -549,6 +550,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BlockYuTuTag;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
