@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497C21992C89AD9600A84616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C21982C89AD9600A84616 /* AppDelegate.swift */; };
+		497C219D2C89AD9600A84616 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 497C219C2C89AD9600A84616 /* Base */; };
+		497C219F2C89AD9600A84616 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 497C219E2C89AD9600A84616 /* Icon.png */; };
+		497C21A12C89AD9600A84616 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 497C21A02C89AD9600A84616 /* Style.css */; };
+		497C21A32C89AD9600A84616 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21A22C89AD9600A84616 /* Script.js */; };
+		497C21A52C89AD9600A84616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C21A42C89AD9600A84616 /* ViewController.swift */; };
+		497C21A82C89AD9600A84616 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 497C21A72C89AD9600A84616 /* Base */; };
+		497C21AA2C89AD9700A84616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497C21A92C89AD9700A84616 /* Assets.xcassets */; };
+		497C21B22C89AD9700A84616 /* BlockYuTuTag Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 497C21B12C89AD9700A84616 /* BlockYuTuTag Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		497C21B72C89AD9700A84616 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C21B62C89AD9700A84616 /* SafariWebExtensionHandler.swift */; };
+		497C21BA2C89AD9700A84616 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 497C21B92C89AD9700A84616 /* _locales */; };
+		497C21BC2C89AD9700A84616 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 497C21BB2C89AD9700A84616 /* images */; };
+		497C21BE2C89AD9700A84616 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 497C21BD2C89AD9700A84616 /* manifest.json */; };
+		497C21C02C89AD9700A84616 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21BF2C89AD9700A84616 /* background.js */; };
+		497C21C22C89AD9700A84616 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C12C89AD9700A84616 /* content.js */; };
+		497C21C42C89AD9700A84616 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C32C89AD9700A84616 /* popup.html */; };
+		497C21C62C89AD9700A84616 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C52C89AD9700A84616 /* popup.css */; };
+		497C21C82C89AD9700A84616 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 497C21C72C89AD9700A84616 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497C21B32C89AD9700A84616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497C218D2C89AD9600A84616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497C21B02C89AD9700A84616;
+			remoteInfo = "BlockYuTuTag Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		497C21D02C89AD9700A84616 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				497C21B22C89AD9700A84616 /* BlockYuTuTag Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		497C21952C89AD9600A84616 /* BlockYuTuTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockYuTuTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497C21982C89AD9600A84616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497C219C2C89AD9600A84616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		497C219E2C89AD9600A84616 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		497C21A02C89AD9600A84616 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		497C21A22C89AD9600A84616 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		497C21A42C89AD9600A84616 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497C21A72C89AD9600A84616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497C21A92C89AD9700A84616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497C21AB2C89AD9700A84616 /* BlockYuTuTag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockYuTuTag.entitlements; sourceTree = "<group>"; };
+		497C21AC2C89AD9700A84616 /* BlockYuTuTag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockYuTuTag.entitlements; sourceTree = "<group>"; };
+		497C21B12C89AD9700A84616 /* BlockYuTuTag Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockYuTuTag Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497C21B62C89AD9700A84616 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		497C21B92C89AD9700A84616 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		497C21BB2C89AD9700A84616 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		497C21BD2C89AD9700A84616 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		497C21BF2C89AD9700A84616 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		497C21C12C89AD9700A84616 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		497C21C32C89AD9700A84616 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		497C21C52C89AD9700A84616 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		497C21C72C89AD9700A84616 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		497C21C92C89AD9700A84616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497C21CA2C89AD9700A84616 /* BlockYuTuTag_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockYuTuTag_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497C21922C89AD9600A84616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497C21AE2C89AD9700A84616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497C218C2C89AD9600A84616 = {
+			isa = PBXGroup;
+			children = (
+				497C21972C89AD9600A84616 /* BlockYuTuTag */,
+				497C21B52C89AD9700A84616 /* BlockYuTuTag Extension */,
+				497C21962C89AD9600A84616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497C21962C89AD9600A84616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497C21952C89AD9600A84616 /* BlockYuTuTag.app */,
+				497C21B12C89AD9700A84616 /* BlockYuTuTag Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497C21972C89AD9600A84616 /* BlockYuTuTag */ = {
+			isa = PBXGroup;
+			children = (
+				497C21982C89AD9600A84616 /* AppDelegate.swift */,
+				497C21A42C89AD9600A84616 /* ViewController.swift */,
+				497C21A62C89AD9600A84616 /* Main.storyboard */,
+				497C21A92C89AD9700A84616 /* Assets.xcassets */,
+				497C21AB2C89AD9700A84616 /* BlockYuTuTag.entitlements */,
+				497C21AC2C89AD9700A84616 /* BlockYuTuTag.entitlements */,
+				497C219A2C89AD9600A84616 /* Resources */,
+			);
+			path = BlockYuTuTag;
+			sourceTree = "<group>";
+		};
+		497C219A2C89AD9600A84616 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				497C219B2C89AD9600A84616 /* Main.html */,
+				497C219E2C89AD9600A84616 /* Icon.png */,
+				497C21A02C89AD9600A84616 /* Style.css */,
+				497C21A22C89AD9600A84616 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		497C21B52C89AD9700A84616 /* BlockYuTuTag Extension */ = {
+			isa = PBXGroup;
+			children = (
+				497C21B62C89AD9700A84616 /* SafariWebExtensionHandler.swift */,
+				497C21C92C89AD9700A84616 /* Info.plist */,
+				497C21CA2C89AD9700A84616 /* BlockYuTuTag_Extension.entitlements */,
+				497C21B82C89AD9700A84616 /* Resources */,
+			);
+			path = "BlockYuTuTag Extension";
+			sourceTree = "<group>";
+		};
+		497C21B82C89AD9700A84616 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				497C21B92C89AD9700A84616 /* _locales */,
+				497C21BB2C89AD9700A84616 /* images */,
+				497C21BD2C89AD9700A84616 /* manifest.json */,
+				497C21BF2C89AD9700A84616 /* background.js */,
+				497C21C12C89AD9700A84616 /* content.js */,
+				497C21C32C89AD9700A84616 /* popup.html */,
+				497C21C52C89AD9700A84616 /* popup.css */,
+				497C21C72C89AD9700A84616 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497C21942C89AD9600A84616 /* BlockYuTuTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497C21D12C89AD9700A84616 /* Build configuration list for PBXNativeTarget "BlockYuTuTag" */;
+			buildPhases = (
+				497C21912C89AD9600A84616 /* Sources */,
+				497C21922C89AD9600A84616 /* Frameworks */,
+				497C21932C89AD9600A84616 /* Resources */,
+				497C21D02C89AD9700A84616 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497C21B42C89AD9700A84616 /* PBXTargetDependency */,
+			);
+			name = BlockYuTuTag;
+			productName = BlockYuTuTag;
+			productReference = 497C21952C89AD9600A84616 /* BlockYuTuTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497C21B02C89AD9700A84616 /* BlockYuTuTag Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497C21CD2C89AD9700A84616 /* Build configuration list for PBXNativeTarget "BlockYuTuTag Extension" */;
+			buildPhases = (
+				497C21AD2C89AD9700A84616 /* Sources */,
+				497C21AE2C89AD9700A84616 /* Frameworks */,
+				497C21AF2C89AD9700A84616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockYuTuTag Extension";
+			productName = "BlockYuTuTag Extension";
+			productReference = 497C21B12C89AD9700A84616 /* BlockYuTuTag Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497C218D2C89AD9600A84616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					497C21942C89AD9600A84616 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					497C21B02C89AD9700A84616 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 497C21902C89AD9600A84616 /* Build configuration list for PBXProject "BlockYuTuTag" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497C218C2C89AD9600A84616;
+			productRefGroup = 497C21962C89AD9600A84616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497C21942C89AD9600A84616 /* BlockYuTuTag */,
+				497C21B02C89AD9700A84616 /* BlockYuTuTag Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497C21932C89AD9600A84616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C219F2C89AD9600A84616 /* Icon.png in Resources */,
+				497C21A32C89AD9600A84616 /* Script.js in Resources */,
+				497C219D2C89AD9600A84616 /* Base in Resources */,
+				497C21A12C89AD9600A84616 /* Style.css in Resources */,
+				497C21AA2C89AD9700A84616 /* Assets.xcassets in Resources */,
+				497C21A82C89AD9600A84616 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497C21AF2C89AD9700A84616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C21C02C89AD9700A84616 /* background.js in Resources */,
+				497C21C62C89AD9700A84616 /* popup.css in Resources */,
+				497C21C42C89AD9700A84616 /* popup.html in Resources */,
+				497C21BC2C89AD9700A84616 /* images in Resources */,
+				497C21BE2C89AD9700A84616 /* manifest.json in Resources */,
+				497C21BA2C89AD9700A84616 /* _locales in Resources */,
+				497C21C22C89AD9700A84616 /* content.js in Resources */,
+				497C21C82C89AD9700A84616 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497C21912C89AD9600A84616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C21A52C89AD9600A84616 /* ViewController.swift in Sources */,
+				497C21992C89AD9600A84616 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497C21AD2C89AD9700A84616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C21B72C89AD9700A84616 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497C21B42C89AD9700A84616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497C21B02C89AD9700A84616 /* BlockYuTuTag Extension */;
+			targetProxy = 497C21B32C89AD9700A84616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		497C219B2C89AD9600A84616 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497C219C2C89AD9600A84616 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		497C21A62C89AD9600A84616 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497C21A72C89AD9600A84616 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497C21CB2C89AD9700A84616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		497C21CC2C89AD9700A84616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		497C21CE2C89AD9700A84616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BlockYuTuTag Extension/BlockYuTuTag_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2ZYL8JN5D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockYuTuTag Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockYuTuTag Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leongo.BlockYuTuTag.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		497C21CF2C89AD9700A84616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BlockYuTuTag Extension/BlockYuTuTag_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2ZYL8JN5D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockYuTuTag Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockYuTuTag Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leongo.BlockYuTuTag.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		497C21D22C89AD9700A84616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlockYuTuTag/BlockYuTuTag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2ZYL8JN5D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockYuTuTag;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leongo.BlockYuTuTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		497C21D32C89AD9700A84616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlockYuTuTag/BlockYuTuTag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2ZYL8JN5D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockYuTuTag;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leongo.BlockYuTuTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497C21902C89AD9600A84616 /* Build configuration list for PBXProject "BlockYuTuTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497C21CB2C89AD9700A84616 /* Debug */,
+				497C21CC2C89AD9700A84616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497C21CD2C89AD9700A84616 /* Build configuration list for PBXNativeTarget "BlockYuTuTag Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497C21CE2C89AD9700A84616 /* Debug */,
+				497C21CF2C89AD9700A84616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497C21D12C89AD9700A84616 /* Build configuration list for PBXNativeTarget "BlockYuTuTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497C21D22C89AD9700A84616 /* Debug */,
+				497C21D32C89AD9700A84616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497C218D2C89AD9600A84616 /* Project object */;
+}
